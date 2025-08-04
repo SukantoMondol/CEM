@@ -463,7 +463,7 @@ export default function Home() {
                   {[
                     { name: 'Solarland BD', type: 'Solar Energy' },
                     { name: 'Kalpataru Power', type: 'Power Transmission' },
-                    { name: 'Reverie Power', type: 'Power Automation' },
+                    { name: 'CEM Engineering', type: 'Power Automation' },
                     { name: 'TS Transformer', type: 'Transformer Supply' },
                     { name: 'Optimal Track', type: 'Automation' },
                     { name: 'CEPZ', type: 'Export Zone' }

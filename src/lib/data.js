@@ -376,7 +376,7 @@ export const completedProjects = [
     imageHint: 'cable work',
     href: '/projects/completed/cable-pulling',
     category: 'Cable Work',
-    client: 'Reverie Power & Automation Engineering Ltd',
+    client: 'CEM Engineering',
     year: '2021',
     status: 'Completed'
   },

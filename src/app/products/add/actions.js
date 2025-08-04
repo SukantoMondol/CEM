@@ -17,7 +17,7 @@ const client = new MongoClient(mongoUri);
 
 async function connectToDb() {
     await client.connect();
-    return client.db('reverie-eng-db'); // You can name your database here
+    return client.db('cem-eng-db'); // CEM Engineering database
 }
 
 export async function handleAddProduct(formData) {

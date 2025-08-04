@@ -7,7 +7,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: 'Reverie Engineering',
+  title: 'CEM Engineering',
   description: 'Engineering a Brighter Future',
 };
 
