@@ -1,0 +1,10 @@
+This directory contains downloadable files for the CEM Engineering website.
+
+Organized by categories:
+- Technical Documents
+- Brochures & Catalogs
+- Certificates
+- Case Studies
+- Presentations
+
+Please maintain this structure when adding new files.
