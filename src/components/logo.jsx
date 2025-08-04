@@ -8,9 +8,9 @@ export function Logo() {
         <Image 
           src="/uploads/image.png" 
           alt="CEM Engineering Logo" 
-          width={120} 
-          height={40} 
-          className="h-auto w-auto"
+          width={80} 
+          height={30} 
+          className="h-auto w-auto max-h-8"
           priority
         />
       </div>
