@@ -3,14 +3,18 @@ import Image from 'next/image';
 import { SiteLayout } from '@/components/site-layout';
 
 const partners = [
-  { name: 'Siemens', logoSrc: 'https://placehold.co/200x100', imageHint: 'logo siemens' },
-  { name: 'ABB', logoSrc: 'https://placehold.co/200x100', imageHint: 'logo abb' },
-  { name: 'Schneider Electric', logoSrc: 'https://placehold.co/200x100', imageHint: 'logo schneider electric' },
-  { name: 'Eaton', logoSrc: 'https://placehold.co/200x100', imageHint: 'logo eaton' },
-  { name: 'Legrand', logoSrc: 'https://placehold.co/200x100', imageHint: 'logo legrand' },
-  { name: 'V-Guard', logoSrc: 'https://placehold.co/200x100', imageHint: 'logo v-guard' },
-  { name: 'C&S Electric', logoSrc: 'https://placehold.co/200x100', imageHint: 'logo c&s electric' },
-  { name: 'Terasaki', logoSrc: 'https://placehold.co/200x100', imageHint: 'logo terasaki' },
+  { name: 'Bangladesh Rural Electrification Board', logoSrc: '/uploads/breb.png', imageHint: 'logo BREB' },
+  { name: 'Power Grid Company of Bangladesh', logoSrc: '/uploads/pgcb-400.jpeg', imageHint: 'logo PGCB' },
+  { name: 'Dhaka Electric Supply Company', logoSrc: '/uploads/dhaka electric.png', imageHint: 'logo DESCO' },
+  { name: 'Dhaka Power Distribution Company', logoSrc: '/uploads/dhaka power distribution.png', imageHint: 'logo DPDC' },
+  { name: 'Bangladesh Power Development Board', logoSrc: '/uploads/bangladesh power.svg', imageHint: 'logo BPDB' },
+  { name: 'West Zone Power Distribution Company', logoSrc: '/uploads/west zone.jpeg', imageHint: 'logo WZPDCL' },
+  { name: 'North-West Power Generation Company', logoSrc: '/uploads/north-west.png', imageHint: 'logo NWPGCL' },
+  { name: 'Northern Electricity Supply Company', logoSrc: '/uploads/northern.webp', imageHint: 'logo NESCO' },
+  { name: 'Grameen Phone', logoSrc: '/uploads/graminphone.jpg', imageHint: 'logo Grameen Phone' },
+  { name: 'Palmal Group', logoSrc: '/uploads/palmal group.jpeg', imageHint: 'logo Palmal Group' },
+  { name: 'Bangladesh-China Power Company', logoSrc: '/uploads/bangladesh chaina.jpg', imageHint: 'logo BCPCL' },
+  { name: 'Electricity Generation Company of Bangladesh', logoSrc: '/uploads/electricity generation.png', imageHint: 'logo EGCB' },
 ];
 
 export default function PartnershipsPage() {
@@ -26,15 +30,18 @@ export default function PartnershipsPage() {
             </p>
             <div className="mt-12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 items-center justify-center">
               {partners.map((partner) => (
-                <div key={partner.name} className="flex justify-center">
-                   <Image
-                      src={partner.logoSrc}
-                      alt={`${partner.name} logo`}
-                      width={200}
-                      height={100}
-                      className="grayscale hover:grayscale-0 transition-all duration-300"
-                      data-ai-hint={partner.imageHint}
-                    />
+                <div key={partner.name} className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100">
+                   <div className="h-24 flex items-center justify-center mb-3">
+                     <Image
+                        src={partner.logoSrc}
+                        alt={`${partner.name} logo`}
+                        width={180}
+                        height={90}
+                        className="object-contain max-h-24 transition-all duration-300"
+                        data-ai-hint={partner.imageHint}
+                      />
+                   </div>
+                   <p className="text-xs text-center text-gray-600 mt-2 font-medium">{partner.name}</p>
                 </div>
               ))}
             </div>

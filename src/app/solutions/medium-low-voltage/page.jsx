@@ -43,24 +43,13 @@ export default function MediumLowVoltagePage() {
               </div>
               
               <div className="relative">
-                <div className="absolute -inset-4 bg-gradient-to-br from-blue-500/20 to-green-500/20 rounded-xl blur opacity-75"></div>
-                <div className="relative bg-gradient-to-br from-blue-600 to-green-600 p-8 rounded-xl text-white text-center">
-                  <div className="text-6xl mb-4">⚡</div>
-                  <h3 className="text-2xl font-bold mb-4">Distribution Excellence</h3>
-                  <p className="text-blue-100 mb-6">
-                    Specialized in medium and low voltage distribution systems for commercial and industrial applications.
-                  </p>
-                  <div className="grid grid-cols-2 gap-4 text-sm">
-                    <div>
-                      <div className="font-bold">Commercial</div>
-                      <div className="text-blue-200">Buildings</div>
-                    </div>
-                    <div>
-                      <div className="font-bold">Industrial</div>
-                      <div className="text-blue-200">Factories</div>
-                    </div>
-                  </div>
-                </div>
+                <Image 
+                  src="/uploads/mediul and hight voltage .webp" 
+                  alt="Medium and Low Voltage Systems" 
+                  width={600} 
+                  height={400} 
+                  className="rounded-xl shadow-lg object-cover w-full h-auto"
+                />
               </div>
             </div>
           </div>

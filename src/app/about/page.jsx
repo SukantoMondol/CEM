@@ -379,6 +379,132 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* Workshop and Plant Section */}
+         <section id="workshop" className="py-16 lg:py-24 bg-gradient-to-r from-blue-50 via-white to-red-50 relative overflow-hidden">
+          <div className="absolute inset-0 bg-grid-pattern opacity-10"></div>
+          <div className="particle-container">
+            <div className="particle particle-1"></div>
+            <div className="particle particle-3"></div>
+            <div className="particle particle-5"></div>
+          </div>
+          <div className="container mx-auto px-4 relative z-10">
+            <div className="text-center mb-16">
+              <div className="inline-block mb-4 px-4 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">
+                State-of-the-Art Facilities
+              </div>
+              <h2 className="text-4xl font-bold text-gradient-cem mb-6 animated-text-gradient">CEM Workshop & Plant</h2>
+              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+                Our modern workshop and manufacturing facilities enable us to deliver high-quality power engineering solutions.
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+              <div>
+                <h3 className="text-2xl font-bold mb-6">Main Workshop Facility</h3>
+                <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+                  Our main workshop is equipped with state-of-the-art machinery and tools for fabrication, assembly, and testing of electrical components and systems. 
+                  The facility spans over 10,000 square feet with dedicated areas for different manufacturing processes.
+                </p>
+                
+                <div className="space-y-4 mb-8">
+                  <div className="flex items-center gap-4">
+                    <Building className="w-6 h-6 text-blue-600" />
+                    <span className="text-lg">Army House, Lift-2C, Hazi Road</span>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <MapPin className="w-6 h-6 text-red-600" />
+                    <span className="text-lg">Boatghat, Khilkhet, Dhaka-1229, Bangladesh</span>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <Phone className="w-6 h-6 text-green-600" />
+                    <span className="text-lg">+880 1868-410755</span>
+                  </div>
+                </div>
+                
+                <h4 className="text-xl font-semibold mb-4">Workshop Capabilities</h4>
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="w-5 h-5 text-green-600" />
+                    <span>Metal Fabrication</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="w-5 h-5 text-green-600" />
+                    <span>Electrical Assembly</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="w-5 h-5 text-green-600" />
+                    <span>Quality Testing</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="w-5 h-5 text-green-600" />
+                    <span>Component Storage</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="relative">
+                <div className="absolute -inset-4 bg-gradient-to-br from-blue-500/20 to-red-500/20 rounded-xl blur opacity-75"></div>
+                <div className="relative rounded-xl overflow-hidden">
+                  <Image 
+                    src="/uploads/hot dip.jpeg"
+                    alt="CEM Workshop Facility"
+                    width={800}
+                    height={600}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+            
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div className="order-2 md:order-1 relative">
+                <div className="absolute -inset-4 bg-gradient-to-br from-red-500/20 to-yellow-500/20 rounded-xl blur opacity-75"></div>
+                <div className="relative rounded-xl overflow-hidden">
+                  <Image 
+                    src="/uploads/steel poles.jpeg"
+                    alt="CEM Manufacturing Plant"
+                    width={800}
+                    height={600}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+              
+              <div className="order-1 md:order-2">
+                <h3 className="text-2xl font-bold mb-6">Manufacturing Plant</h3>
+                <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+                  Our manufacturing plant specializes in producing high-quality electrical components, steel structures, and power distribution equipment. 
+                  With advanced machinery and skilled technicians, we ensure precision manufacturing for all our power sector projects.
+                </p>
+                
+                <h4 className="text-xl font-semibold mb-4">Plant Specializations</h4>
+                <div className="grid grid-cols-2 gap-4 mb-8">
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="w-5 h-5 text-green-600" />
+                    <span>Steel Structure Fabrication</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="w-5 h-5 text-green-600" />
+                    <span>Hot-Dip Galvanizing</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="w-5 h-5 text-green-600" />
+                    <span>Cable Tray Production</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle className="w-5 h-5 text-green-600" />
+                    <span>Electrical Panel Assembly</span>
+                  </div>
+                </div>
+                
+                <Button size="lg" className="bg-gradient-to-r from-blue-600 to-red-600 text-white hover:from-blue-700 hover:to-red-700 px-8 py-4 text-lg font-semibold">
+                  <Link href="/contact">Schedule a Visit</Link>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </section>
+        
         {/* Contact Section */}
         <section className="py-16 lg:py-24 bg-gradient-to-r from-blue-600 via-red-600 to-yellow-500 text-white">
           <div className="container mx-auto px-4 text-center">

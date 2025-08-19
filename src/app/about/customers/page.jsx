@@ -4,13 +4,13 @@ import { SiteLayout } from '@/components/site-layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { ArrowRight, Star, Users, Award, Building, CheckCircle } from 'lucide-react';
+import { ArrowRight, CheckCircle } from 'lucide-react';
 
 // Featured customers with more detailed information
 const featuredCustomers = [
   { 
     name: 'Bangladesh Rural Electrification Board (BREB)', 
-    logoSrc: 'https://placehold.co/200x100', 
+    logoSrc: '/uploads/breb.png', 
     imageHint: 'BREB logo',
     description: 'Partnered on multiple rural electrification projects, providing reliable power solutions to remote communities.',
     projectCount: 12,
@@ -20,7 +20,7 @@ const featuredCustomers = [
   },
   { 
     name: 'Power Grid Company of Bangladesh (PGCB)', 
-    logoSrc: 'https://placehold.co/200x100', 
+    logoSrc: '/uploads/power.jpeg', 
     imageHint: 'PGCB logo',
     description: 'Collaborated on high-voltage transmission infrastructure projects, enhancing the national power grid capacity.',
     projectCount: 8,
@@ -30,7 +30,7 @@ const featuredCustomers = [
   },
   { 
     name: 'Dhaka Electric Supply Company (DESCO)', 
-    logoSrc: 'https://placehold.co/200x100', 
+    logoSrc: '/uploads/dhaka electric.png', 
     imageHint: 'DESCO logo',
     description: 'Partnered on urban distribution network upgrades, improving reliability and reducing outages in metropolitan areas.',
     projectCount: 6,
@@ -42,23 +42,17 @@ const featuredCustomers = [
 
 // Additional customers
 const additionalCustomers = [
-  { name: 'Dhaka Power Distribution Company (DPDC)', logoSrc: 'https://placehold.co/200x100', imageHint: 'DPDC logo', category: 'Utility' },
-  { name: 'Bangladesh Power Development Board (BPDB)', logoSrc: 'https://placehold.co/200x100', imageHint: 'BPDB logo', category: 'Government' },
-  { name: 'West Zone Power Distribution Company (WZPDCL)', logoSrc: 'https://placehold.co/200x100', imageHint: 'WZPDCL logo', category: 'Utility' },
-  { name: 'Northern Electricity Supply Company (NESCO)', logoSrc: 'https://placehold.co/200x100', imageHint: 'NESCO logo', category: 'Utility' },
-  { name: 'Rural Power Company Limited (RPCL)', logoSrc: 'https://placehold.co/200x100', imageHint: 'RPCL logo', category: 'Government' },
-  { name: 'Electricity Generation Company of Bangladesh (EGCB)', logoSrc: 'https://placehold.co/200x100', imageHint: 'EGCB logo', category: 'Government' },
-  { name: 'North-West Power Generation Company (NWPGCL)', logoSrc: 'https://placehold.co/200x100', imageHint: 'NWPGCL logo', category: 'Government' },
-  { name: 'Bangladesh-China Power Company (BCPCL)', logoSrc: 'https://placehold.co/200x100', imageHint: 'BCPCL logo', category: 'Joint Venture' },
+  { name: 'Dhaka Power Distribution Company (DPDC)', logoSrc: '/uploads/dhaka power distribution.png', imageHint: 'DPDC logo', category: 'Utility' },
+  { name: 'Bangladesh Power Development Board (BPDB)', logoSrc: '/uploads/bangladesh power.svg', imageHint: 'BPDB logo', category: 'Government' },
+  { name: 'West Zone Power Distribution Company (WZPDCL)', logoSrc: '/uploads/west zone.jpeg', imageHint: 'WZPDCL logo', category: 'Utility' },
+  { name: 'Northern Electricity Supply Company (NESCO)', logoSrc: '/uploads/northern.webp', imageHint: 'NESCO logo', category: 'Utility' },
+  { name: 'Rural Power Company Limited (RPCL)', logoSrc: '/uploads/rural.jpeg', imageHint: 'RPCL logo', category: 'Government' },
+  { name: 'Electricity Generation Company of Bangladesh (EGCB)', logoSrc: '/uploads/electricity generation.png', imageHint: 'EGCB logo', category: 'Government' },
+  { name: 'North-West Power Generation Company (NWPGCL)', logoSrc: '/uploads/north-west.png', imageHint: 'NWPGCL logo', category: 'Government' },
+  { name: 'Bangladesh-China Power Company (BCPCL)', logoSrc: '/uploads/bangladesh chaina.jpg', imageHint: 'BCPCL logo', category: 'Joint Venture' },
 ];
 
-// Customer success metrics
-const successMetrics = [
-  { label: 'Satisfied Clients', value: '15+', icon: <Users className="h-6 w-6 text-blue-600" /> },
-  { label: 'Completed Projects', value: '30+', icon: <CheckCircle className="h-6 w-6 text-red-600" /> },
-  { label: 'Years of Partnership', value: '5+', icon: <Building className="h-6 w-6 text-yellow-500" /> },
-  { label: 'Excellence Awards', value: '7', icon: <Award className="h-6 w-6 text-green-600" /> },
-];
+
 
 export default function CustomersPage() {
   return (
@@ -66,36 +60,7 @@ export default function CustomersPage() {
       <div className="bg-background/80 backdrop-blur-sm">
         <PageHeader title="Our Customers" imageHint="customer satisfaction" />
         
-        {/* Hero Section */}
-        <section className="py-16 lg:py-24 relative overflow-hidden bg-gradient-to-br from-blue-50 via-white to-red-50">
-          <div className="particle-container">
-            <div className="particle particle-1"></div>
-            <div className="particle particle-2"></div>
-            <div className="particle particle-3"></div>
-          </div>
-          
-          <div className="container mx-auto px-4 relative z-10">
-            <div className="text-center max-w-3xl mx-auto mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-gradient-animated mb-6">Powering Bangladesh's Future Together</h2>
-              <p className="text-xl text-muted-foreground">
-                We are proud to partner with Bangladesh's leading power sector organizations, delivering excellence and innovation in every project.
-              </p>
-            </div>
-            
-            {/* Success Metrics */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto mb-16">
-              {successMetrics.map((metric, index) => (
-                <div key={index} className="text-center">
-                  <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-white shadow-glow flex items-center justify-center">
-                    {metric.icon}
-                  </div>
-                  <div className="text-3xl font-bold">{metric.value}</div>
-                  <div className="text-sm text-muted-foreground">{metric.label}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+
         
         {/* Featured Customers Section */}
         <section className="py-16 lg:py-24">

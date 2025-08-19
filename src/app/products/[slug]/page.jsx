@@ -7,7 +7,7 @@ import { PageHeader } from '@/components/page-header';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { ArrowLeft, Building, Check, Download, FileText, Share2 } from 'lucide-react';
+import { ArrowLeft, Building, Check, Download, FileText, Share2, Phone } from 'lucide-react';
 import Link from 'next/link';
 import { products } from '@/lib/data';
 
@@ -84,9 +84,11 @@ export default async function ProductDetailPage({ params }) {
                 </div>
                 
                 <div className="flex flex-wrap gap-4">
-                  <Button>
-                    <Download className="mr-2 h-4 w-4" />
-                    Download Datasheet
+                  <Button asChild>
+                    <Link href="/contact">
+                      <Phone className="mr-2 h-4 w-4" />
+                      Contact Us
+                    </Link>
                   </Button>
                   <Button variant="outline">
                     <Share2 className="mr-2 h-4 w-4" />
@@ -144,17 +146,11 @@ export default async function ProductDetailPage({ params }) {
                 Download comprehensive documentation for this product, including installation guides, maintenance manuals, and technical specifications.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Button variant="outline">
-                  <Download className="mr-2 h-4 w-4" />
-                  Installation Guide
-                </Button>
-                <Button variant="outline">
-                  <Download className="mr-2 h-4 w-4" />
-                  Maintenance Manual
-                </Button>
-                <Button variant="outline">
-                  <Download className="mr-2 h-4 w-4" />
-                  Technical Datasheet
+                <Button asChild>
+                  <Link href="/contact">
+                    <Phone className="mr-2 h-4 w-4" />
+                    Contact Us
+                  </Link>
                 </Button>
               </div>
             </div>

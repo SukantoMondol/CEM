@@ -15,26 +15,26 @@ export default function HighVoltagePage() {
         <PageHeader title="High Voltage Systems" imageHint="high voltage substation" />
         
         {/* Hero Section */}
-        <section className="py-16 lg:py-24 bg-gradient-to-br from-orange-50 via-red-50 to-yellow-50">
+        <section className="py-16 lg:py-24 bg-gradient-to-br from-blue-50 via-orange-50 to-red-50">
           <div className="container mx-auto px-4">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <h1 className="text-4xl md:text-5xl font-bold text-gradient-cem mb-6">
-                  High Voltage Systems
+                  High Voltage Excellence
                 </h1>
                 <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                  400KV/230KV/33KV/11KV high voltage substation goods supply, installation, 
-                  fabrication & erection work for major power companies across Bangladesh.
+                  Specialized in high voltage substation installation, equipment supply, and power transmission 
+                  solutions for major power companies across Bangladesh.
                 </p>
                 
                 <div className="grid grid-cols-2 gap-6 mb-8">
                   <div className="text-center">
                     <div className="text-3xl font-bold text-orange-600">400KV</div>
-                    <div className="text-sm text-muted-foreground">Maximum Voltage</div>
+                    <div className="text-sm text-muted-foreground">Transmission</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-red-600">15+</div>
-                    <div className="text-sm text-muted-foreground">Projects Completed</div>
+                    <div className="text-3xl font-bold text-red-600">230KV</div>
+                    <div className="text-sm text-muted-foreground">Substation</div>
                   </div>
                 </div>
                 
@@ -44,24 +44,13 @@ export default function HighVoltagePage() {
               </div>
               
               <div className="relative">
-                <div className="absolute -inset-4 bg-gradient-to-br from-orange-500/20 to-red-500/20 rounded-xl blur opacity-75"></div>
-                <div className="relative bg-gradient-to-br from-orange-600 to-red-600 p-8 rounded-xl text-white text-center">
-                  <div className="text-6xl mb-4">⚡</div>
-                  <h3 className="text-2xl font-bold mb-4">High Voltage Excellence</h3>
-                  <p className="text-orange-100 mb-6">
-                    Specialized in high voltage substation installation and power transmission systems.
-                  </p>
-                  <div className="grid grid-cols-2 gap-4 text-sm">
-                    <div>
-                      <div className="font-bold">PGCB</div>
-                      <div className="text-orange-200">Power Grid</div>
-                    </div>
-                    <div>
-                      <div className="font-bold">BREB</div>
-                      <div className="text-orange-200">Rural Power</div>
-                    </div>
-                  </div>
-                </div>
+                <Image 
+                  src="/uploads/power sector excelence .jpeg" 
+                  alt="Power Sector Excellence" 
+                  width={600} 
+                  height={400} 
+                  className="rounded-xl shadow-lg object-cover w-full h-auto"
+                />
               </div>
             </div>
           </div>

@@ -20,8 +20,8 @@ export const navItems = [
         href: '/about/customers',
       },
       {
-        title: 'Download Documents',
-        href: '/downloads',
+        title: 'Workshop & Plant',
+        href: '/about#workshop',
       },
     ],
   },
