@@ -62,7 +62,7 @@ export default function HistoryPage() {
                     <div className="relative group">
                       <div className="absolute -inset-1 bg-gradient-to-r from-primary to-accent rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
                       <Image 
-                        src="https://placehold.co/600x400" 
+                        src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop" 
                         alt="Founding moment" 
                         width={600} 
                         height={400} 
@@ -88,7 +88,7 @@ export default function HistoryPage() {
                     <div className="relative group">
                       <div className="absolute -inset-1 bg-gradient-to-r from-accent to-secondary rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
                       <Image 
-                        src="https://placehold.co/600x400" 
+                        src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop" 
                         alt="Team growth" 
                         width={600} 
                         height={400} 
@@ -142,7 +142,7 @@ export default function HistoryPage() {
                     <div className="relative group">
                       <div className="absolute -inset-1 bg-gradient-to-r from-secondary to-primary rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
                       <Image 
-                        src="https://placehold.co/600x400" 
+                        src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop" 
                         alt="Modern headquarters" 
                         width={600} 
                         height={400} 

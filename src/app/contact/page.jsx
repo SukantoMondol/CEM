@@ -108,9 +108,9 @@ export default function ContactPage() {
                   <ContactInfoCard
                     icon={<Clock className="h-6 w-6" />}
                     title="Business Hours"
-                    primary="Monday - Friday: 8:00 AM - 6:00 PM"
-                    secondary="Saturday: 9:00 AM - 2:00 PM"
-                    description="Sunday: Closed"
+                    primary="Open 24/7"
+                    secondary=""
+                    description="Always available"
                     color="yellow"
                   />
                 </div>

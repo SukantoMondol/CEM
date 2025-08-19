@@ -54,15 +54,15 @@ export default function Home() {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
-              <div className="text-3xl font-bold text-blue-600">5+</div>
+              <div className="text-3xl font-bold text-blue-600">7+</div>
               <div className="text-sm text-muted-foreground">Years Experience</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-red-600">22+</div>
+              <div className="text-3xl font-bold text-red-600">50+</div>
               <div className="text-sm text-muted-foreground">Skilled Employees</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-yellow-500">50+</div>
+              <div className="text-3xl font-bold text-yellow-500">30+</div>
               <div className="text-sm text-muted-foreground">Projects Completed</div>
             </div>
             <div className="text-center">
@@ -221,24 +221,8 @@ export default function Home() {
               </Button>
             </div>
             
-            <div className="relative">
-              <div className="modern-card p-8 rounded-3xl">
-                <div className="text-center">
-                  <div className="text-8xl mb-6">⚡</div>
-                  <h3 className="text-3xl font-bold text-gradient-cem mb-4">Power Sector Excellence</h3>
-                  <p className="text-lg text-muted-foreground mb-6">Serving major power companies with innovative solutions and reliable engineering services.</p>
-                  <div className="grid grid-cols-2 gap-4 text-sm">
-                    <div className="text-center">
-                      <div className="font-bold text-blue-600">BREB</div>
-                      <div>Rural Electrification</div>
-                    </div>
-                    <div className="text-center">
-                      <div className="font-bold text-red-600">PGCB</div>
-                      <div>Power Grid</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div className="relative rounded-3xl overflow-hidden">
+              <img src="/uploads/power sector excelence .jpeg" alt="Power Sector Excellence" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>

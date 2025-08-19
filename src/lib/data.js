@@ -3,7 +3,7 @@ export const ongoingProjects = [
   {
     title: '33 KV Distribution Line - NESCO, PBS, BREB, WZPDCL',
     description: 'Design, supply, installation, and commissioning of 33 KV distribution lines for multiple power sector companies across Bangladesh.',
-    imageSrc: '/uploads/projects/33kv-distribution-line.jpg', // Will be replaced with actual image
+    imageSrc: '/uploads/recovery and installation.jpg',
     imageHint: 'distribution line installation',
     href: '/projects/ongoing/33kv-distribution-line',
     category: 'Distribution Lines',
@@ -21,7 +21,7 @@ export const ongoingProjects = [
   {
     title: '132KV, 230KV, 400KV Transmission Line - PGCB',
     description: 'High-voltage transmission line project spanning multiple districts including Bogura, Chittagong, Cumilla, Fani, and Tangile.',
-    imageSrc: '/uploads/projects/transmission-line-pgcb.jpg', // Will be replaced with actual image
+    imageSrc: '/uploads/pgcb-400.jpeg',
     imageHint: 'high voltage transmission line',
     href: '/projects/ongoing/transmission-line-pgcb',
     category: 'Transmission Line',
@@ -39,7 +39,7 @@ export const ongoingProjects = [
   {
     title: 'Palmal Group Factory - 610 KW Solar Plant',
     description: 'Large-scale rooftop solar power installation for Palmal Group Factory in Gazipur Borobari, providing sustainable energy solutions.',
-    imageSrc: '/uploads/projects/palmal-solar-plant.jpg', // Will be replaced with actual image
+    imageSrc: '/uploads/palmal group.jpeg',
     imageHint: 'rooftop solar installation',
     href: '/projects/ongoing/palmal-solar',
     category: 'Solar Plant',
@@ -57,7 +57,7 @@ export const ongoingProjects = [
   {
     title: '1 MWP Solar System at Bhan Char Upazila',
     description: 'Large-scale solar power plant installation in Hatiya, Noakhali district under Chittagong Division, providing sustainable energy to the region.',
-    imageSrc: '/uploads/projects/bhan-char-solar.jpg', // Will be replaced with actual image
+    imageSrc: '/uploads/1mwp solar.jpeg',
     imageHint: 'solar power plant',
     href: '/projects/ongoing/bhan-char-solar',
     category: 'Solar Plant',
@@ -75,7 +75,7 @@ export const ongoingProjects = [
   {
     title: '33/11 KV GIS Substation - DESCO, NESCO, WZPDCL',
     description: 'Design, supply, installation, testing and commissioning of 33/11 KV Gas Insulated Substations for multiple power distribution companies.',
-    imageSrc: '/uploads/projects/gis-substation.jpg', // Will be replaced with actual image
+    imageSrc: '/uploads/gis33:11naraoungonj.jpeg',
     imageHint: 'gas insulated substation',
     href: '/projects/ongoing/gis-substation',
     category: 'Substation',
@@ -93,7 +93,7 @@ export const ongoingProjects = [
   {
     title: '132 KV AIS Substation - PGCB, Chittagong',
     description: 'Air Insulated Substation project for PGCB at Chittagong RSRM Factory, enhancing power distribution capabilities in the industrial zone.',
-    imageSrc: '/uploads/projects/ais-substation-chittagong.jpg', // Will be replaced with actual image
+    imageSrc: '/uploads/132 kv ais.jpeg',
     imageHint: 'air insulated substation',
     href: '/projects/ongoing/ais-substation-chittagong',
     category: 'Substation',
@@ -111,7 +111,7 @@ export const ongoingProjects = [
   {
     title: '132 KV GIS Substation - Chittagong RSRM Factory',
     description: 'Gas Insulated Substation installation at RSRM Factory in Chittagong, providing reliable power distribution for industrial operations.',
-    imageSrc: '/uploads/projects/gis-substation-rsrm.jpg', // Will be replaced with actual image
+    imageSrc: '/uploads/tower erection.jpeg',
     imageHint: 'gas insulated substation industrial',
     href: '/projects/ongoing/gis-substation-rsrm',
     category: 'Substation',
@@ -132,7 +132,7 @@ export const completedProjects = [
   {
     title: 'Palmal Group Factory - 610 KW Solar Plant',
     description: 'Successful installation of 610 KW rooftop solar power system for Palmal Group Factory in Gazipur Borobari, providing sustainable energy solutions.',
-    imageSrc: '/uploads/projects/palmal-solar-plant.jpg', // Will be replaced with actual image
+    imageSrc: '/uploads/palmal group.jpeg',
     imageHint: 'rooftop solar installation completed',
     href: '/projects/completed/palmal-solar',
     category: 'Solar Plant',
@@ -151,7 +151,7 @@ export const completedProjects = [
   {
     title: '1 MWP Solar System at Bhan Char Upazila',
     description: 'Completed large-scale solar power plant installation in Hatiya, Noakhali district under Chittagong Division, providing sustainable energy to the region.',
-    imageSrc: '/uploads/projects/bhan-char-solar.jpg', // Will be replaced with actual image
+    imageSrc: '/uploads/1mvp solar.avif',
     imageHint: 'solar power plant completed',
     href: '/projects/completed/bhan-char-solar',
     category: 'Solar Plant',
@@ -170,7 +170,7 @@ export const completedProjects = [
   {
     title: '33/11 KV GIS Substation - DESCO, NESCO, WZPDCL',
     description: 'Successfully completed design, supply, installation, testing and commissioning of 33/11 KV Gas Insulated Substations for multiple power distribution companies.',
-    imageSrc: '/uploads/projects/gis-substation.jpg', // Will be replaced with actual image
+    imageSrc: '/uploads/breb33:11.jpeg',
     imageHint: 'gas insulated substation completed',
     href: '/projects/completed/gis-substation',
     category: 'Substation',
@@ -189,7 +189,7 @@ export const completedProjects = [
   {
     title: 'Grameenphone Technology Infrastructure',
     description: 'Complete electrical infrastructure and technology setup for Grameenphone facilities.',
-    imageSrc: 'https://placehold.co/600x400/7c3aed/ffffff?text=Technology+Infrastructure',
+    imageSrc: '/uploads/graminphone.jpg',
     imageHint: 'technology infrastructure',
     href: '/projects/completed/grameenphone-tech',
     category: 'Infrastructure',
@@ -207,7 +207,7 @@ export const completedProjects = [
   {
     title: '1 MWP SOLAR SYSTEM AT BHAN CHAR UPAZILA HATIYA',
     description: 'Large scale solar power plant installation in Noakhali district under Chittagong Division.',
-    imageSrc: 'https://placehold.co/600x400/7c3aed/ffffff?text=1MW+Solar+Plant',
+    imageSrc: '/uploads/1mwp solar.jpeg',
     imageHint: 'solar power plant',
     href: '/projects/completed/bhan-char-solar',
     category: 'Solar Plant',
@@ -218,7 +218,7 @@ export const completedProjects = [
   {
     title: 'Technap Rohingya Camp',
     description: 'Electrical infrastructure and power distribution system for refugee camp facilities.',
-    imageSrc: 'https://placehold.co/600x400/ea580c/ffffff?text=Camp+Infrastructure',
+    imageSrc: '/uploads/technap.jpeg',
     imageHint: 'camp infrastructure',
     href: '/projects/completed/technap-rohingya',
     category: 'Infrastructure',
@@ -229,7 +229,7 @@ export const completedProjects = [
   {
     title: 'BREB 33/11 KV NEW AIS SUBSTATION, FORIDPUR, NAGORKANDHA-2',
     description: 'Earthing Goods supply, Fabrication, Installation, Erection Testing and commissioning.',
-    imageSrc: 'https://placehold.co/600x400/f59e0b/ffffff?text=Substation+Work',
+    imageSrc: '/uploads/breb33:11 foridpure.jpeg',
     imageHint: 'substation work',
     href: '/projects/completed/foridpur-nagorkandha',
     category: 'Substation',
@@ -240,7 +240,7 @@ export const completedProjects = [
   {
     title: 'BREB 33/11 KV NEW AIS SUBSTATION, JOSSOR-5',
     description: 'Earthing Goods supply, Fabrication, Installation, Erection Testing and commissioning.',
-    imageSrc: 'https://placehold.co/600x400/1e40af/ffffff?text=Substation+Work',
+    imageSrc: '/uploads/mreb33:11 jessore.webp',
     imageHint: 'substation work',
     href: '/projects/completed/jossor-5',
     category: 'Substation',
@@ -251,7 +251,7 @@ export const completedProjects = [
   {
     title: 'BREB 33/11 KV NEW AIS SUBSTATION-FORIDPUR-4',
     description: 'Earthing Goods supply, Fabrication, Installation, Erection Testing and commissioning.',
-    imageSrc: 'https://placehold.co/600x400/dc2626/ffffff?text=Substation+Work',
+    imageSrc: '/uploads/breb33:11.jpeg',
     imageHint: 'substation work',
     href: '/projects/completed/foridpur-4',
     category: 'Substation',
@@ -262,7 +262,7 @@ export const completedProjects = [
   {
     title: 'BREB 33/11 KV NEW AIS SUBSTATION, KHULNA, KHALISPUR',
     description: 'Earthing Goods supply, Fabrication, Installation, Erection Testing and commissioning.',
-    imageSrc: 'https://placehold.co/600x400/059669/ffffff?text=Substation+Work',
+    imageSrc: '/uploads/hot dip.jpeg',
     imageHint: 'substation work',
     href: '/projects/completed/khulna-khalispur',
     category: 'Substation',
@@ -273,7 +273,7 @@ export const completedProjects = [
   {
     title: 'BREB 33/11 KV NEW AIS SUBSTATION, Dikbazar, Khulna',
     description: 'Earthing Goods supply, Fabrication, Installation, Erection, Testing, and Commissioning.',
-    imageSrc: 'https://placehold.co/600x400/7c3aed/ffffff?text=Substation+Work',
+    imageSrc: '/uploads/hot dip1.webp',
     imageHint: 'substation work',
     href: '/projects/completed/dikbazar-khulna',
     category: 'Substation',
@@ -284,7 +284,7 @@ export const completedProjects = [
   {
     title: 'GIS 33/11 KV Substation, Adomjee Bepza, Naraoungonj',
     description: 'Earthing Goods supply, Fabrication, Installation, Erection, Testing, and Commissioning.',
-    imageSrc: 'https://placehold.co/600x400/ea580c/ffffff?text=GIS+Substation',
+    imageSrc: '/uploads/gis33:11naraoungonj.jpeg',
     imageHint: 'gis substation',
     href: '/projects/completed/adomjee-bepza',
     category: 'Substation',
@@ -295,7 +295,7 @@ export const completedProjects = [
   {
     title: 'BPDB 33/11 KV AIS Substation, Kurigram, Rangpur',
     description: 'Earthing Goods supply, Fabrication, Installation, and Erection.',
-    imageSrc: 'https://placehold.co/600x400/f59e0b/ffffff?text=Substation+Work',
+    imageSrc: '/uploads/hot dip3.jpeg',
     imageHint: 'substation work',
     href: '/projects/completed/kurigram-rangpur',
     category: 'Substation',
@@ -306,7 +306,7 @@ export const completedProjects = [
   {
     title: 'BPDB 33/11 KV AIS Substation, Lalmonirha, Rangpur',
     description: 'Earthing Goods supply, Fabrication, Installation, and Erection.',
-    imageSrc: 'https://placehold.co/600x400/1e40af/ffffff?text=Substation+Work',
+    imageSrc: '/uploads/132 kv ais.jpeg',
     imageHint: 'substation work',
     href: '/projects/completed/lalmonirha-rangpur',
     category: 'Substation',
@@ -317,7 +317,7 @@ export const completedProjects = [
   {
     title: 'BPDB 33/11 KV AIS Substation, Kaliganj, Rangpur',
     description: 'Transformer Oil centrifuge and Earthing Goods supply, Fabrication, Installation, and Erection.',
-    imageSrc: 'https://placehold.co/600x400/dc2626/ffffff?text=Substation+Work',
+    imageSrc: '/uploads/tower erection.jpeg',
     imageHint: 'substation work',
     href: '/projects/completed/kaliganj-rangpur',
     category: 'Substation',
@@ -328,7 +328,7 @@ export const completedProjects = [
   {
     title: 'WZPDCL GIS- 33/11 KV, 2X20/26/66 MVA Substation',
     description: 'Erection, Installation, Fabrication, cable Pulling, complete accessories work, Testing and Commissioning work at Mohessorpara, Khulna and MAN Campus, Kushtia.',
-    imageSrc: 'https://placehold.co/600x400/059669/ffffff?text=WZPDCL+Substation',
+    imageSrc: '/uploads/sirajganj7.6.jpeg',
     imageHint: 'wzpdc substation',
     href: '/projects/completed/wzpdc-substation',
     category: 'Substation',
@@ -339,7 +339,7 @@ export const completedProjects = [
   {
     title: '33/11 kv substation Control Building Construction',
     description: 'Control Building Construction work at WZPDCL, Kushtia housing.',
-    imageSrc: 'https://placehold.co/600x400/7c3aed/ffffff?text=Control+Building',
+    imageSrc: '/uploads/recovery and installation.jpg',
     imageHint: 'control building',
     href: '/projects/completed/control-building',
     category: 'Civil Construction',
@@ -350,7 +350,7 @@ export const completedProjects = [
   {
     title: 'Repair, Maintenance Installation of defective GIS 132/11 KV Substation',
     description: 'Maintenance and repair work at MSML, Chittagong.',
-    imageSrc: 'https://placehold.co/600x400/ea580c/ffffff?text=Maintenance+Work',
+    imageSrc: '/uploads/technap.jpeg',
     imageHint: 'maintenance work',
     href: '/projects/completed/msml-maintenance',
     category: 'Maintenance',
@@ -361,7 +361,7 @@ export const completedProjects = [
   {
     title: 'BREB 33/11 KV, 8X 10/14MVA & 16/20 MVA SUBSTATION',
     description: 'Fabrication, Erection & Installation Work, LOT-2.',
-    imageSrc: 'https://placehold.co/600x400/f59e0b/ffffff?text=Substation+Work',
+    imageSrc: '/uploads/breb33:11 foridpure.jpeg',
     imageHint: 'substation work',
     href: '/projects/completed/breb-substation-lot2',
     category: 'Substation',
@@ -372,7 +372,7 @@ export const completedProjects = [
   {
     title: 'BREB 33/11 kv substation power cable pulling and power Termination',
     description: 'Power cable pulling and termination work for substation projects.',
-    imageSrc: 'https://placehold.co/600x400/1e40af/ffffff?text=Cable+Work',
+    imageSrc: '/uploads/cable try.jpg',
     imageHint: 'cable work',
     href: '/projects/completed/cable-pulling',
     category: 'Cable Work',
@@ -383,7 +383,7 @@ export const completedProjects = [
   {
     title: 'PGCB-400 KV Transmission Line, Bogura to Rohanpur-T',
     description: 'High voltage transmission line construction and installation.',
-    imageSrc: 'https://placehold.co/600x400/dc2626/ffffff?text=Transmission+Line',
+    imageSrc: '/uploads/pgcb-400.jpeg',
     imageHint: 'transmission line',
     href: '/projects/completed/pgcb-400kv',
     category: 'Transmission Line',
@@ -394,7 +394,7 @@ export const completedProjects = [
   {
     title: 'PGCB-230 KV Double Circuit Transmission Line, Bogura to Rohanpur',
     description: 'Double circuit transmission line construction and installation.',
-    imageSrc: 'https://placehold.co/600x400/059669/ffffff?text=Transmission+Line',
+    imageSrc: '/uploads/pgcb-230.jpg',
     imageHint: 'transmission line',
     href: '/projects/completed/pgcb-230kv',
     category: 'Transmission Line',
@@ -405,7 +405,7 @@ export const completedProjects = [
   {
     title: 'Tower Erection on 400 kv madunaghat - matarbari D/C TL',
     description: 'Tower erection work under contract no PGCB/MUSCCFPP/packeg-02/TL-2.',
-    imageSrc: 'https://placehold.co/600x400/7c3aed/ffffff?text=Tower+Erection',
+    imageSrc: '/uploads/tower erection.jpeg',
     imageHint: 'tower erection',
     href: '/projects/completed/tower-erection',
     category: 'Transmission Line',
@@ -416,7 +416,7 @@ export const completedProjects = [
   {
     title: 'Recovery and installation of 33 kv and 11 kv Distribution line',
     description: 'From Shahid A.H.M Kamruzzaman Airport to Nawhata Bridge 20 km circuit -Division-03. NESCO Ltd. Rajshahi.',
-    imageSrc: 'https://placehold.co/600x400/ea580c/ffffff?text=Distribution+Line',
+    imageSrc: '/uploads/recovery and installation.jpg',
     imageHint: 'distribution line',
     href: '/projects/completed/nesco-distribution',
     category: 'Distribution Line',
@@ -427,7 +427,7 @@ export const completedProjects = [
   {
     title: 'Hot dip Galvanize Steel Structure Gantry Tower, Central Grid SS',
     description: 'CT, PT, CB Structure Supply, fabrication, Installation at PGCB, Daulatpur, Khulna.',
-    imageSrc: 'https://placehold.co/600x400/f59e0b/ffffff?text=Steel+Structure',
+    imageSrc: '/uploads/hot dip.jpeg',
     imageHint: 'steel structure',
     href: '/projects/completed/central-grid-ss',
     category: 'Steel Structure',
@@ -438,7 +438,7 @@ export const completedProjects = [
   {
     title: 'Hot dip Galvanize Steel Structure Gantry Tower, WZPDCL',
     description: 'CT, PT, CB Structure, Cable Tray, Connector Supply, fabrication, Installation at Mohessorpara, Khulna and MAN Campus, Kushtia.',
-    imageSrc: 'https://placehold.co/600x400/1e40af/ffffff?text=Steel+Structure',
+    imageSrc: '/uploads/hot dip1.webp',
     imageHint: 'steel structure',
     href: '/projects/completed/wzpdc-steel',
     category: 'Steel Structure',
@@ -449,7 +449,7 @@ export const completedProjects = [
   {
     title: 'Hot dip Galvanize Steel Structure Gantry Tower, BREB Sherpur',
     description: 'CT, PT, CB Structure, Cable Tray, Connector Supply, fabrication, Installation at -33 kv Bay Extension Project.',
-    imageSrc: 'https://placehold.co/600x400/dc2626/ffffff?text=Steel+Structure',
+    imageSrc: '/uploads/hot dip3.jpeg',
     imageHint: 'steel structure',
     href: '/projects/completed/breb-sherpur-steel',
     category: 'Steel Structure',
@@ -460,7 +460,7 @@ export const completedProjects = [
   {
     title: 'SIRAJGANJ 7.6 MW GRID CONNECTED SOLAR PHOTOVOLTAIC POWER PLANT',
     description: 'Full wiring, MDB, SDB, Earthing material supply installation testing and commissioning.',
-    imageSrc: 'https://placehold.co/600x400/059669/ffffff?text=Solar+Power+Plant',
+    imageSrc: '/uploads/sirajganj7.6.jpeg',
     imageHint: 'solar power plant',
     href: '/projects/completed/sirajganj-solar',
     category: 'Solar Plant',
@@ -472,213 +472,249 @@ export const completedProjects = [
 
 export const products = [
   {
-    title: 'Switchgear',
-    description: 'Reliable and safe switchgear for various voltage levels, designed for optimal performance and protection in electrical distribution systems.',
-    longDescription: 'Our switchgear solutions are engineered to provide maximum safety and reliability for electrical power distribution systems. Designed to meet international standards, our switchgear products offer superior protection against electrical faults, ensuring continuous operation of your electrical systems. With compact designs and modular construction, our switchgear can be customized to meet specific project requirements while maintaining ease of installation and maintenance.',
-    imageSrc: 'https://images.unsplash.com/photo-1620283085439-39aed3b5e4b6?q=80&w=2070&auto=format&fit=crop',
-    imageHint: 'electrical switchgear',
-    href: '/products/switchgear',
+    title: 'Copper Clad Steel Rod / Copper Coated Steel Earth Rod',
+    description: 'High-quality copper bonded steel earthing rods for reliable grounding systems.',
+    longDescription: 'Copper bonded steel earth rods provide low-resistance paths to ground with excellent corrosion resistance and mechanical strength, ideal for industrial, utility, and commercial earthing systems.',
+    imageSrc: '/uploads/coper rod.webp',
+    imageHint: 'copper clad steel earth rod',
+    href: '/products/copper-clad-steel-rod',
     specifications: {
-      'Voltage Rating': '11kV - 33kV',
-      'Current Rating': '630A - 2500A',
-      'Frequency': '50/60 Hz',
-      'Protection Class': 'IP54',
-      'Standards': 'IEC 62271-200',
-      'Dimensions': 'Customizable',
-      'Installation': 'Indoor/Outdoor',
-      'Warranty': '2 Years',
+      Material: 'Copper bonded steel',
+      Coating: 'Electrolytic copper bonded',
+      Lengths: 'As required',
+      Diameter: 'Customizable',
+      Standard: 'IEC/IEEE compliant'
     },
     features: [
-      'High operational reliability',
-      'Compact design',
-      'Low maintenance requirements',
-      'Extended service life',
-      'Environmental friendliness',
-      'Easy installation and commissioning',
-      'Customizable configurations',
-      'Advanced safety features',
+      'Low earth resistance performance',
+      'High corrosion resistance',
+      'Robust mechanical strength',
+      'Suitable for various soil conditions'
+    ],
+    applications: [
+      'Substation earthing',
+      'Industrial facilities',
+      'Commercial buildings',
+      'Telecom towers'
+    ]
+  },
+  {
+    title: 'Substation Steel Structure & Gantry Tower (HDG)',
+    description: 'Hot-dip galvanized steel structures and gantry towers for substations.',
+    longDescription: 'Engineered and fabricated hot-dip galvanized (HDG) substation structures and gantry towers designed for long-term durability and compliance with utility standards.',
+    imageSrc: '/uploads/substation steel.jpg',
+    imageHint: 'galvanized substation steel structure gantry tower',
+    href: '/products/substation-steel-structure-gantry-tower',
+    specifications: {
+      Finish: 'Hot-dip galvanized (HDG)',
+      Material: 'High-strength structural steel',
+      Standard: 'ASTM/BS/IEC as specified',
+      Application: '33 kV to 400 kV substations'
+    },
+    features: [
+      'Corrosion-resistant HDG finish',
+      'Precision fabrication and fit',
+      'Custom designs for site conditions',
+      'Compliant with utility standards'
+    ],
+    applications: [
+      'Substations',
+      'Power plants',
+      'Transmission projects'
+    ]
+  },
+  {
+    title: 'Exothermic Welding Powder, Molds & Handles',
+    description: 'Exothermic welding powder with durable molds and handles for permanent earthing joints.',
+    longDescription: 'Complete exothermic welding solutions including cad weld powder, graphite molds, and mold handles for permanent, low-resistance, maintenance-free electrical connections in earthing and bonding.',
+    imageSrc: '/uploads/exothermic.jpeg',
+    imageHint: 'exothermic welding powder mold handle',
+    href: '/products/exothermic-welding-powder-mold',
+    specifications: {
+      ConnectionTypes: 'Cable-to-rod, cable-to-cable, cable-to-steel',
+      MoldMaterial: 'High-quality graphite',
+      PowderGrades: 'Multiple shot sizes',
+      Standard: 'IEEE/IEC earthing practices'
+    },
+    features: [
+      'Permanent molecular bond',
+      'Low resistance, high conductivity',
+      'No external power source required',
+      'Durable molds and accessories'
+    ],
+    applications: [
+      'Earthing and bonding',
+      'Lightning protection systems',
+      'Substations and plants'
+    ]
+  },
+  {
+    title: 'Medium and High Voltage Substation Hardware Fittings',
+    description: 'Aluminum clamp connectors and fittings for 33 kV, 132 kV, 230 kV, and 400 kV substations.',
+    longDescription: 'Comprehensive range of MV/HV substation hardware including aluminum clamp connectors and fittings suitable for 33 kV to 400 kV applications.',
+    imageSrc: '/uploads/mediul and hight voltage .webp',
+    imageHint: 'high voltage substation hardware fittings',
+    href: '/products/substation-hardware-fittings',
+    specifications: {
+      VoltageClasses: '33 kV, 132 kV, 230 kV, 400 kV',
+      Materials: 'Aluminum alloys, galvanized steel',
+      Standards: 'IEC/IEEE/Utility specs'
+    },
+    features: [
+      'High mechanical strength',
+      'Excellent conductivity',
+      'Corrosion resistance',
+      'Broad voltage coverage'
+    ],
+    applications: [
+      'Transmission and distribution substations'
+    ]
+  },
+  {
+    title: 'Cable Tray / Cable Bracket',
+    description: 'GP sheet-based trays and brackets with hot chamber color coating and hot-dip galvanizing.',
+    longDescription: 'Cable trays and brackets manufactured from GP sheet with options for hot chamber color coating or hot-dip galvanizing for long-term protection and load performance.',
+    imageSrc: '/uploads/cable try.jpg',
+    imageHint: 'cable tray and cable bracket',
+    href: '/products/cable-tray-bracket',
+    specifications: {
+      Material: 'GP sheet',
+      FinishOptions: 'Powder coated / HDG',
+      WidthRange: 'As specified',
+      LoadClass: 'Light to heavy duty'
+    },
+    features: [
+      'Multiple finishes available',
+      'High load-bearing capacity',
+      'Easy installation with accessories',
+      'Corrosion protection'
+    ],
+    applications: [
+      'Industrial and commercial cabling',
+      'Substations and plants'
+    ]
+  },
+  {
+    title: 'Copper & Aluminum Cable Lugs',
+    description: 'Cable lugs for power plants and substations with sizes from 25 RM to 500 RM.',
+    longDescription: 'High-conductivity copper and aluminum lugs for reliable terminations in power plants and substations. Available in a wide range of sizes and configurations.',
+    imageSrc: '/uploads/coper and aluminum.jpeg',
+    imageHint: 'cable lugs for power and substation',
+    href: '/products/copper-aluminum-cable-lugs',
+    specifications: {
+      Sizes: '25 RM, 35 RM, 50 RM, 120 RM, 150 RM, 185 RM, 300 RM, 500 RM',
+      Materials: 'Copper, Aluminum',
+      Finish: 'Tinned/Untinned',
+      Type: 'Compression / Mechanical'
+    },
+    features: [
+      'High conductivity',
+      'Secure crimping or bolted connection',
+      'Corrosion-resistant finish',
+      'Wide size range'
     ],
     applications: [
       'Power plants',
       'Substations',
-      'Industrial facilities',
-      'Commercial buildings',
-      'Infrastructure projects',
-    ],
+      'Industrial installations'
+    ]
   },
   {
-    title: 'Busbar Trunking System',
-    description: 'Flexible and efficient power distribution solutions for commercial and industrial applications, offering space-saving and reliable electrical distribution.',
-    longDescription: 'Our Busbar Trunking Systems provide a modern alternative to traditional cable-based power distribution. These systems offer significant advantages in terms of space utilization, flexibility, and maintenance. With high short-circuit ratings and excellent thermal performance, our busbar systems ensure reliable power distribution in various environments. The modular design allows for easy expansion and reconfiguration, making it ideal for evolving electrical requirements in commercial and industrial settings.',
-    imageSrc: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=2070&auto=format&fit=crop',
-    imageHint: 'busbar system',
-    href: '/products/busbar-trunking-system',
+    title: 'Anchor Bolts (Dia 8mm to 125mm)',
+    description: 'Anchor bolts for power plants, substations, factories, and solar projects.',
+    longDescription: 'Precision-fabricated anchor bolts covering a diameter range from 8 mm to 125 mm for foundations and structural anchoring in energy and industrial projects.',
+    imageSrc: '/uploads/anchor bolt.avif',
+    imageHint: 'steel anchor bolts',
+    href: '/products/anchor-bolts',
     specifications: {
-      'Current Rating': '100A - 6300A',
-      'Voltage': '415V - 1000V',
-      'Frequency': '50/60 Hz',
-      'Protection Class': 'IP55',
-      'Short Circuit Rating': 'Up to 100kA',
-      'Conductor Material': 'Copper/Aluminum',
-      'Installation': 'Indoor',
-      'Compliance': 'IEC 61439-6',
+      DiameterRange: '8 mm to 125 mm',
+      Material: 'Carbon steel / alloy steel',
+      Finish: 'Blackened / HDG / Zinc plated'
     },
     features: [
-      'Space-saving design',
-      'Flexible configuration',
-      'Easy installation and maintenance',
-      'High short-circuit withstand',
-      'Low voltage drop',
-      'Reduced power losses',
-      'Fire resistant',
-      'Tap-off points for convenient power access',
+      'High tensile strength',
+      'Custom lengths and bends',
+      'Multiple coating options',
+      'Certified materials'
     ],
     applications: [
-      'Commercial buildings',
-      'Data centers',
-      'Manufacturing facilities',
-      'Shopping malls',
-      'Hospitals',
-    ],
-  },
-  {
-    title: 'Transformer',
-    description: 'High-quality transformers for power transmission and distribution, engineered for efficiency and reliability in various applications.',
-    longDescription: 'Our transformer range includes distribution transformers, power transformers, and special-purpose transformers designed for specific applications. Built with high-quality materials and advanced manufacturing techniques, our transformers offer excellent efficiency, low losses, and long service life. Each transformer undergoes rigorous testing to ensure compliance with international standards and specifications. We provide both oil-filled and dry-type transformers to suit different environmental and safety requirements.',
-    imageSrc: 'https://images.unsplash.com/photo-1626193082855-c3224f769638?q=80&w=2070&auto=format&fit=crop',
-    imageHint: 'power transformer',
-    href: '/products/transformer',
-    specifications: {
-      'Power Rating': '100kVA - 50MVA',
-      'Primary Voltage': 'Up to 132kV',
-      'Secondary Voltage': 'As per requirement',
-      'Frequency': '50/60 Hz',
-      'Cooling': 'ONAN/ONAF/OFAF',
-      'Vector Group': 'Dyn11, YNd11, etc.',
-      'Impedance': 'As per standard',
-      'Insulation Class': 'A/F/H',
-    },
-    features: [
-      'High efficiency',
-      'Low losses',
-      'Reduced noise level',
-      'Temperature monitoring',
-      'Overload capability',
-      'Compact footprint',
-      'Long service life',
-      'Low maintenance',
-    ],
-    applications: [
-      'Power generation plants',
-      'Transmission substations',
-      'Distribution networks',
-      'Industrial facilities',
-      'Renewable energy projects',
-    ],
-  },
-  {
-    title: 'Lightning Protection',
-    description: 'Advanced systems to protect structures from lightning strikes, safeguarding buildings, equipment, and personnel from lightning-related damages.',
-    longDescription: 'Our Lightning Protection Systems provide comprehensive protection against direct lightning strikes and the secondary effects of lightning. Designed in accordance with international standards, our systems include air terminals, down conductors, earth termination systems, and surge protection devices. We offer both conventional and early streamer emission (ESE) lightning protection systems to suit different structures and risk levels. Our solutions are customized based on risk assessment and structural characteristics to provide optimal protection.',
-    imageSrc: 'https://images.unsplash.com/photo-1605003179269-c446bb939f00?q=80&w=2071&auto=format&fit=crop',
-    imageHint: 'lightning rod',
-    href: '/products/lightning-protection',
-    specifications: {
-      'Protection Level': 'I, II, III, IV as per IEC 62305',
-      'Material': 'Copper, Aluminum, Stainless Steel',
-      'Down Conductor': '50mm² - 95mm²',
-      'Earth Resistance': '< 10 Ohms',
-      'Air Terminal Height': 'As per protection radius',
-      'Standards': 'IEC 62305, NFPA 780',
-      'Installation': 'External/Internal',
-      'Maintenance': 'Annual inspection recommended',
-    },
-    features: [
-      'Complete protection system',
-      'Customized design',
-      'Aesthetic integration with structures',
-      'Corrosion-resistant materials',
-      'Surge protection capability',
-      'Easy maintenance',
-      'Long service life',
-      'Compliance with international standards',
-    ],
-    applications: [
-      'High-rise buildings',
-      'Industrial facilities',
-      'Telecommunication towers',
-      'Historical monuments',
-      'Residential complexes',
-    ],
-  },
-  {
-    title: 'Cable Management',
-    description: 'Comprehensive solutions for organizing and protecting cables, ensuring efficient cable routing, identification, and maintenance in various environments.',
-    longDescription: 'Our Cable Management Systems provide organized and protected pathways for power and data cables in various environments. Our product range includes cable trays, ladders, trunking, conduits, and accessories designed to support, protect, and organize cables throughout their routes. Made from high-quality materials with various finishes, our cable management solutions offer excellent corrosion resistance and load-bearing capacity. The systems are designed for easy installation, maintenance, and future expansion, ensuring long-term reliability of cable infrastructure.',
-    imageSrc: 'https://images.unsplash.com/photo-1601996759374-7d2dca2596f8?q=80&w=2070&auto=format&fit=crop',
-    imageHint: 'cable management',
-    href: '/products/cable-management',
-    specifications: {
-      'Material': 'Galvanized Steel, Stainless Steel, Aluminum',
-      'Load Capacity': 'Up to 100kg/m',
-      'Width Range': '50mm - 600mm',
-      'Height Range': '50mm - 100mm',
-      'Finish': 'Pre-galvanized, Hot-dip galvanized, Powder coated',
-      'Standards': 'IEC 61537, NEMA VE 1',
-      'Fire Rating': 'Available as per requirement',
-      'Accessories': 'Comprehensive range available',
-    },
-    features: [
-      'Versatile design',
-      'High load-bearing capacity',
-      'Corrosion resistance',
-      'Easy installation',
-      'Comprehensive accessory range',
-      'Adaptable to various environments',
-      'Space-efficient solutions',
-      'Maintenance-friendly',
-    ],
-    applications: [
-      'Commercial buildings',
-      'Data centers',
-      'Industrial facilities',
-      'Infrastructure projects',
       'Power plants',
-    ],
+      'Substations',
+      'Industrial factories',
+      'Solar structures'
+    ]
   },
   {
-    title: 'IPS & UPS',
-    description: 'Uninterruptible and instant power supply systems providing reliable backup power for critical applications, ensuring continuous operation during power outages.',
-    longDescription: 'Our Uninterruptible Power Supply (UPS) and Instant Power Supply (IPS) systems provide reliable backup power for critical applications. These systems ensure continuous operation during power outages, protecting sensitive equipment from power disturbances. Our range includes online double-conversion UPS, line-interactive UPS, and standby UPS systems with various power ratings to suit different applications. With advanced monitoring capabilities and high efficiency, our power backup solutions offer peace of mind for businesses and organizations that cannot afford downtime.',
-    imageSrc: 'https://images.unsplash.com/photo-1620283085439-39aed3b5e4b6?q=80&w=2070&auto=format&fit=crop',
-    imageHint: 'uninterruptible power supply',
-    href: '/products/ips-ups',
+    title: 'Solar Mounting Structure',
+    description: 'Steel mounting structures for solar panels.',
+    longDescription: 'Durable steel solar mounting structures engineered for wind loads and site conditions, suitable for rooftop and ground-mounted solar projects.',
+    imageSrc: '/uploads/solar_mounting.webp',
+    imageHint: 'solar panel mounting structure',
+    href: '/products/solar-mounting-structure',
     specifications: {
-      'Power Rating': '1kVA - 500kVA',
-      'Input Voltage': '220V/380V/400V',
-      'Output Voltage': '220V/380V/400V',
-      'Frequency': '50/60 Hz',
-      'Topology': 'Online Double Conversion, Line Interactive, Standby',
-      'Backup Time': 'Customizable',
-      'Efficiency': 'Up to 96%',
-      'Communication': 'SNMP, RS232, USB',
+      Material: 'Galvanized steel / aluminum',
+      Finish: 'HDG / Anodized',
+      Type: 'Rooftop / Ground mount',
+      Tilt: 'As per design'
     },
     features: [
-      'High reliability',
-      'Pure sine wave output',
-      'Advanced battery management',
-      'Intelligent monitoring',
-      'Overload protection',
-      'Scalable solutions',
-      'Low noise operation',
-      'Remote management capability',
+      'Corrosion-resistant finish',
+      'High structural stability',
+      'Fast installation',
+      'Custom designs'
     ],
     applications: [
-      'Data centers',
-      'Healthcare facilities',
-      'Industrial control systems',
-      'Telecommunications',
-      'Financial institutions',
+      'Solar power plants',
+      'Rooftop solar',
+      'Industrial solar projects'
+    ]
+  },
+  {
+    title: 'Steel Poles',
+    description: 'Streetlight, solar light, and lightning protection poles.',
+    longDescription: 'Range of steel poles including streetlight poles, solar light poles, and lightning protection poles, designed for durability and environmental conditions.',
+    imageSrc: '/uploads/steel poles.jpeg',
+    imageHint: 'street light solar light protection poles',
+    href: '/products/steel-poles',
+    specifications: {
+      Types: 'Streetlight, Solar light, Lightning protection',
+      Finish: 'HDG / Painted',
+      Height: 'As specified'
+    },
+    features: [
+      'Weather-resistant coatings',
+      'Robust construction',
+      'Custom heights and arm options'
     ],
+    applications: [
+      'Roadways and public lighting',
+      'Solar lighting',
+      'Lightning protection systems'
+    ]
+  },
+  {
+    title: 'Distribution Boxes and Panels',
+    description: 'DB, MDB, SDB, ACDB, and DCDB for reliable power distribution.',
+    longDescription: 'Complete range of distribution panels including DB, MDB, SDB, ACDB, and DCDB engineered for safety, reliability, and ease of maintenance.',
+    imageSrc: '/uploads/distrubution boxes.jpeg',
+    imageHint: 'electrical distribution boxes and panels',
+    href: '/products/distribution-boxes-panels',
+    specifications: {
+      Types: 'DB, MDB, SDB, ACDB, DCDB',
+      Standard: 'IEC 61439',
+      IngressProtection: 'Up to IP54',
+      Installation: 'Indoor/Outdoor'
+    },
+    features: [
+      'Modular and scalable designs',
+      'High safety and protection levels',
+      'Quality components and wiring',
+      'Custom configurations'
+    ],
+    applications: [
+      'Industrial facilities',
+      'Commercial buildings',
+      'Power and solar projects'
+    ]
   },
 ];

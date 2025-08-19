@@ -61,22 +61,14 @@ export default function AboutPage() {
               
               <div className="relative">
                 <div className="absolute -inset-4 bg-gradient-to-br from-blue-500/20 to-red-500/20 rounded-xl blur opacity-75"></div>
-                <div className="relative bg-gradient-to-br from-blue-600 to-red-600 p-8 rounded-xl text-white text-center">
-                  <div className="text-6xl mb-4">⚡</div>
-                  <h3 className="text-2xl font-bold mb-4">Power Sector Excellence</h3>
-                  <p className="text-blue-100 mb-6">
-                    Leading power sector solutions with comprehensive EPC services for major power companies in Bangladesh.
-                  </p>
-                  <div className="grid grid-cols-2 gap-4 text-sm">
-                    <div>
-                      <div className="font-bold">BREB</div>
-                      <div className="text-blue-200">Rural Electrification</div>
-                    </div>
-                    <div>
-                      <div className="font-bold">PGCB</div>
-                      <div className="text-blue-200">Power Grid</div>
-                    </div>
-                  </div>
+                <div className="relative rounded-xl overflow-hidden">
+                  <Image 
+                    src="/uploads/power sector excelence .jpeg"
+                    alt="Power Sector Excellence"
+                    width={800}
+                    height={600}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </div>
@@ -116,13 +108,13 @@ export default function AboutPage() {
               />
               
               <CompanyInfoCard
-                icon={<FileText className="w-8 h-8" />}
+                icon={<CheckCircle className="w-8 h-8" />}
                 title="Licenses & Certificates"
                 items={[
-                  "Electrical Contractor License: C20220007305",
-                  "Supervisor Certificate: S20210000086",
-                  "Trade License: TRAD/DNCC/093859/2022",
-                  "Category: ABC"
+                  "Electrical Contractor License",
+                  "Supervisor Certificate",
+                  "Trade License",
+                  "Category ABC"
                 ]}
                 color="red"
               />
@@ -327,71 +319,16 @@ export default function AboutPage() {
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-1 lg:grid-cols-1 gap-8">
               <DirectorCard
                 name="MD. MASUM BILLAH"
                 position="Chairman & Managing Director"
-                imageSrc="https://placehold.co/400x500"
+                imageSrc="/uploads/image copy.png"
                 imageHint="chairman portrait"
                 bio="BSc. in EEE with 12+ years of industry experience. Visionary leader with expertise in power sector engineering and business management."
                 education="BSc. in Electrical & Electronic Engineering"
                 experience="12+ years in power sector"
                 color="blue"
-              />
-              
-              <DirectorCard
-                name="SARAH RAHMAN"
-                position="Director of Operations"
-                imageSrc="https://placehold.co/400x500"
-                imageHint="female director portrait"
-                bio="Oversees all operational aspects of CEM Engineering with a focus on efficiency and excellence in project delivery."
-                education="MSc. in Electrical Engineering"
-                experience="10+ years in operations management"
-                color="red"
-              />
-              
-              <DirectorCard
-                name="MOHAMMAD HASAN"
-                position="Technical Director"
-                imageSrc="https://placehold.co/400x500"
-                imageHint="technical director portrait"
-                bio="Leads technical innovation and quality assurance across all projects, ensuring the highest standards of engineering excellence."
-                education="BSc. in Mechanical Engineering"
-                experience="15+ years in technical leadership"
-                color="yellow"
-              />
-              
-              <DirectorCard
-                name="FATIMA AKTER"
-                position="Finance Director"
-                imageSrc="https://placehold.co/400x500"
-                imageHint="finance director portrait"
-                bio="Manages financial strategy and planning, ensuring sustainable growth and profitability for the company."
-                education="MBA in Finance"
-                experience="8+ years in financial management"
-                color="green"
-              />
-              
-              <DirectorCard
-                name="ABDUL KARIM"
-                position="Business Development Director"
-                imageSrc="https://placehold.co/400x500"
-                imageHint="business director portrait"
-                bio="Spearheads business growth initiatives and strategic partnerships to expand CEM Engineering's market presence."
-                education="MBA in Marketing"
-                experience="12+ years in business development"
-                color="purple"
-              />
-              
-              <DirectorCard
-                name="NUSRAT JAHAN"
-                position="Director of Human Resources"
-                imageSrc="https://placehold.co/400x500"
-                imageHint="hr director portrait"
-                bio="Leads talent acquisition and development, fostering a culture of excellence and continuous learning."
-                education="MSc. in Human Resource Management"
-                experience="9+ years in HR leadership"
-                color="orange"
               />
             </div>
           </div>
@@ -594,7 +531,7 @@ function DirectorCard({ name, position, imageSrc, imageHint, bio, education, exp
   
   return (
     <Card className="h-full overflow-hidden bg-card border hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-      <div className="relative h-64 overflow-hidden">
+      <div className="relative h-80 overflow-hidden">
         <Image 
           src={imageSrc} 
           alt={name} 
