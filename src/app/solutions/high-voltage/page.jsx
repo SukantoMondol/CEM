@@ -171,6 +171,7 @@ export default function HighVoltagePage() {
                 year="2021"
                 voltage="400KV"
                 color="orange"
+                imageSrc="/uploads/pgcb-400.jpeg"
               />
               <ProjectCard
                 title="PGCB-230 KV Double Circuit"
@@ -179,6 +180,7 @@ export default function HighVoltagePage() {
                 year="2021"
                 voltage="230KV"
                 color="red"
+                imageSrc="/uploads/pgcb-230.jpg"
               />
               <ProjectCard
                 title="BREB 33/11 KV Substation"
@@ -187,6 +189,7 @@ export default function HighVoltagePage() {
                 year="2019-2022"
                 voltage="33KV/11KV"
                 color="yellow"
+                imageSrc="/uploads/breb33:11.jpeg"
               />
             </div>
           </div>
@@ -364,7 +367,7 @@ function SpecCard({ title, specs, icon, color }) {
   );
 }
 
-function ProjectCard({ title, description, client, year, voltage, color }) {
+function ProjectCard({ title, description, client, year, voltage, color, imageSrc }) {
   const colorClasses = {
     orange: 'bg-orange-100 text-orange-800',
     red: 'bg-red-100 text-red-800',
@@ -375,7 +378,7 @@ function ProjectCard({ title, description, client, year, voltage, color }) {
     <Card className="group overflow-hidden rounded-xl bg-card border hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
       <div className="relative block overflow-hidden">
         <Image
-          src={`https://placehold.co/600x400/${color === 'orange' ? 'ea580c' : color === 'red' ? 'dc2626' : 'f59e0b'}/ffffff?text=${encodeURIComponent(title)}`}
+          src={imageSrc || `https://placehold.co/600x400/${color === 'orange' ? 'ea580c' : color === 'red' ? 'dc2626' : 'f59e0b'}/ffffff`}
           alt={title}
           width={600}
           height={400}

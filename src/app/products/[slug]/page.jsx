@@ -57,10 +57,13 @@ export default async function ProductDetailPage({ params }) {
                 <Image
                   src={product.imageSrc}
                   alt={product.title}
-                  width={800}
-                  height={600}
-                  className="w-full object-cover aspect-video group-hover:scale-105 transition-transform duration-500"
+                  width={1200}
+                  height={800}
+                  quality={90}
+                  priority
+                  className="w-full object-contain aspect-video group-hover:scale-105 transition-transform duration-500"
                   data-ai-hint={product.imageHint}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 800px"
                 />
               </div>
               

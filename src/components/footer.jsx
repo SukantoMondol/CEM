@@ -97,33 +97,39 @@ export function Footer() {
               </h3>
               <ul className="space-y-3">
                 <li>
-                  <Link href="/solutions/substation" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center group">
+                  <Link href="/solutions/high-voltage" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center group">
                     <Zap className="w-4 h-4 mr-3 text-blue-400 group-hover:text-blue-300" />
-                    Substation Installation
+                    High Voltage Substation
                   </Link>
                 </li>
                 <li>
-                  <Link href="/solutions/solar" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center group">
+                  <Link href="/solutions/medium-low-voltage" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center group">
                     <Rss className="w-4 h-4 mr-3 text-red-400 group-hover:text-red-300" />
-                    Solar Plant Solutions
+                    Medium & Low Voltage
                   </Link>
                 </li>
                 <li>
-                  <Link href="/solutions/civil" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center group">
+                  <Link href="/solutions/automation" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center group">
                     <Building2 className="w-4 h-4 mr-3 text-yellow-400 group-hover:text-yellow-300" />
-                    Civil Construction
+                    Automation
                   </Link>
                 </li>
                 <li>
-                  <Link href="/solutions/distribution" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center group">
+                  <Link href="/solutions/civil-engineering" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center group">
                     <Lightbulb className="w-4 h-4 mr-3 text-green-400 group-hover:text-green-300" />
-                    Distribution Lines
+                    Civil Engineering
                   </Link>
                 </li>
                 <li>
-                  <Link href="/solutions/maintenance" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center group">
+                  <Link href="/solutions/genset" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center group">
                     <ShieldCheck className="w-4 h-4 mr-3 text-purple-400 group-hover:text-purple-300" />
-                    Maintenance & Servicing
+                    Genset
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/solutions/lighting" className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center group">
+                    <Lightbulb className="w-4 h-4 mr-3 text-yellow-400 group-hover:text-yellow-300" />
+                    Lighting
                   </Link>
                 </li>
               </ul>

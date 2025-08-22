@@ -94,42 +94,32 @@ export default function AboutPage() {
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <CompanyInfoCard
-                icon={<User className="w-8 h-8" />}
-                title="Owner Information"
-                items={[
-                  "Name: MD. MASUM BILLAH",
-                  "Qualification: BSc. in EEE",
-                  "Experience: 12 years",
-                  "CEM Experience: 5+ years"
-                ]}
-                color="blue"
-              />
-              
-              <CompanyInfoCard
-                icon={<CheckCircle className="w-8 h-8" />}
-                title="Licenses & Certificates"
-                items={[
-                  "Electrical Contractor License",
-                  "Supervisor Certificate",
-                  "Trade License",
-                  "Category ABC"
-                ]}
-                color="red"
-              />
-              
-              <CompanyInfoCard
-                icon={<Award className="w-8 h-8" />}
-                title="Financial Information"
-                items={[
-                  "TIN Number: 233095266384",
-                  "BIN Number: 003925769-0102",
-                  "Bank: NRB Bank Limited",
-                  "Account: 1932210000872"
-                ]}
-                color="yellow"
-              />
+            <div className="max-w-4xl mx-auto">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <CompanyInfoCard
+                  icon={<User className="w-8 h-8" />}
+                  title="Owner Information"
+                  items={[
+                    "Name: MD. MASUM BILLAH",
+                    "Qualification: BSc. in EEE",
+                    "Experience: 12 years",
+                    "CEM Experience: 5+ years"
+                  ]}
+                  color="blue"
+                />
+                <CompanyInfoCard
+                  icon={<CheckCircle className="w-8 h-8" />}
+                  title="Licenses & Certificates"
+                  items={[
+                    "Electrical Contractor License",
+                    "Supervisor Certificate",
+                    "Trade License",
+                    "Category ABC"
+                  ]}
+                  color="red"
+                />
+                {/* Removed Financial Information card as requested */}
+              </div>
             </div>
           </div>
         </section>
@@ -552,25 +542,46 @@ function InfoCard({ icon, title, description, color }) {
 
 function CompanyInfoCard({ icon, title, items, color }) {
   const colorClasses = {
-    blue: 'bg-blue-500 text-white',
-    red: 'bg-red-500 text-white',
-    yellow: 'bg-yellow-500 text-white'
+    blue: {
+      bg: 'bg-blue-50',
+      ring: 'ring-blue-200',
+      header: 'from-blue-600 to-blue-500',
+      dot: 'bg-blue-500',
+      text: 'text-blue-700'
+    },
+    red: {
+      bg: 'bg-red-50',
+      ring: 'ring-red-200',
+      header: 'from-red-600 to-red-500',
+      dot: 'bg-red-500',
+      text: 'text-red-700'
+    },
+    yellow: {
+      bg: 'bg-yellow-50',
+      ring: 'ring-yellow-200',
+      header: 'from-yellow-500 to-yellow-400',
+      dot: 'bg-yellow-500',
+      text: 'text-yellow-700'
+    }
   };
+
+  const palette = colorClasses[color] || colorClasses.blue;
   
   return (
-    <Card className="h-full p-6 bg-card border hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-      <div className={`w-12 h-12 ${colorClasses[color]} rounded-full flex items-center justify-center mx-auto mb-4`}>
-        {icon}
-      </div>
-      <CardHeader className="p-0 text-center">
-        <CardTitle className="text-xl font-bold">{title}</CardTitle>
-      </CardHeader>
-      <CardContent className="p-0 mt-4">
-        <ul className="space-y-2 text-sm text-muted-foreground">
+    <Card className={`h-full overflow-hidden border bg-card hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1`}>
+      <div className={`h-2 w-full bg-gradient-to-r ${palette.header}`}></div>
+      <CardContent className={`p-6 ${palette.bg} ring-1 ${palette.ring} rounded-b-xl`}>
+        <div className="flex items-center gap-3 mb-4">
+          <div className={`w-10 h-10 rounded-lg bg-white shadow-sm flex items-center justify-center text-foreground`}>{icon}</div>
+          <CardHeader className="p-0">
+            <CardTitle className="text-xl font-bold text-foreground">{title}</CardTitle>
+          </CardHeader>
+        </div>
+        <ul className="space-y-3">
           {items.map((item, index) => (
-            <li key={index} className="flex items-center gap-2">
-              <div className={`w-2 h-2 ${colorClasses[color]} rounded-full`}></div>
-              {item}
+            <li key={index} className="flex items-start gap-3 text-sm">
+              <div className={`mt-1 w-2 h-2 rounded-full ${palette.dot}`}></div>
+              <span className="text-muted-foreground">{item}</span>
             </li>
           ))}
         </ul>
@@ -637,62 +648,50 @@ function TeamCard({ icon, title, count, description, color }) {
 }
 
 function DirectorCard({ name, position, imageSrc, imageHint, bio, education, experience, color }) {
-  const colorClasses = {
-    blue: 'bg-blue-500 text-white border-blue-500/30',
-    red: 'bg-red-500 text-white border-red-500/30',
-    yellow: 'bg-yellow-500 text-white border-yellow-500/30',
-    green: 'bg-green-500 text-white border-green-500/30',
-    purple: 'bg-purple-500 text-white border-purple-500/30',
-    orange: 'bg-orange-500 text-white border-orange-500/30'
+  const colorRing = {
+    blue: 'ring-blue-500/30',
+    red: 'ring-red-500/30',
+    yellow: 'ring-yellow-500/30',
+    green: 'ring-green-500/30',
+    purple: 'ring-purple-500/30',
+    orange: 'ring-orange-500/30'
   };
-  
-  const gradientClasses = {
-    blue: 'from-blue-500 to-blue-700',
-    red: 'from-red-500 to-red-700',
-    yellow: 'from-yellow-500 to-yellow-700',
-    green: 'from-green-500 to-green-700',
-    purple: 'from-purple-500 to-purple-700',
-    orange: 'from-orange-500 to-orange-700'
-  };
-  
+
   return (
-    <Card className="h-full overflow-hidden bg-card border hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-      <div className="relative h-80 overflow-hidden">
-        <Image 
-          src={imageSrc} 
-          alt={name} 
-          width={400} 
-          height={500} 
-          className="object-cover w-full h-full transition-transform duration-700 hover:scale-110"
-          data-ai-hint={imageHint}
-        />
-        <div className={`absolute inset-0 opacity-20 bg-gradient-to-t ${gradientClasses[color]}`}></div>
-        <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
-          <h3 className="text-white text-xl font-bold">{name}</h3>
-          <p className="text-white/90 text-sm">{position}</p>
-        </div>
-      </div>
-      
-      <CardContent className="p-6">
-        <p className="text-muted-foreground mb-6">{bio}</p>
-        
-        <div className="space-y-3">
-          <div className="flex items-center gap-3">
-            <div className={`p-2 rounded-full ${colorClasses[color]}`}>
-              <GraduationCap className="w-4 h-4" />
-            </div>
-            <span className="text-sm">{education}</span>
+    <Card className="h-full overflow-hidden bg-card border hover:shadow-xl transition-all duration-300">
+      <CardContent className="p-8">
+        <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
+          <div className={`relative w-40 h-40 rounded-full overflow-hidden ring-8 ${colorRing[color]} shrink-0`}>
+            <Image
+              src={imageSrc}
+              alt={name}
+              width={320}
+              height={320}
+              className="object-cover w-full h-full"
+              data-ai-hint={imageHint}
+            />
           </div>
-          <div className="flex items-center gap-3">
-            <div className={`p-2 rounded-full ${colorClasses[color]}`}>
-              <Clock className="w-4 h-4" />
+          <div className="flex-1">
+            <h3 className="text-2xl font-bold text-foreground">{name}</h3>
+            <p className="text-muted-foreground mb-4">{position}</p>
+            <p className="text-muted-foreground mb-6 leading-relaxed">{bio}</p>
+            <div className="grid sm:grid-cols-2 gap-4">
+              <div className="flex items-center gap-3">
+                <div className="p-2 rounded-full bg-blue-500/10 text-blue-600">
+                  <GraduationCap className="w-4 h-4" />
+                </div>
+                <span className="text-sm">{education}</span>
+              </div>
+              <div className="flex items-center gap-3">
+                <div className="p-2 rounded-full bg-green-500/10 text-green-600">
+                  <Clock className="w-4 h-4" />
+                </div>
+                <span className="text-sm">{experience}</span>
+              </div>
             </div>
-            <span className="text-sm">{experience}</span>
           </div>
         </div>
       </CardContent>
-      
-      <div className={`h-1 w-full bg-gradient-to-r ${gradientClasses[color]}`}></div>
     </Card>
   );
 }

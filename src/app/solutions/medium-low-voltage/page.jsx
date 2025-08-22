@@ -209,6 +209,7 @@ export default function MediumLowVoltagePage() {
                 year="2023"
                 voltage="33KV/11KV"
                 color="blue"
+                imageSrc="/uploads/dhaka electric.png"
               />
               <ProjectCard
                 title="Industrial Factory Distribution"
@@ -217,6 +218,7 @@ export default function MediumLowVoltagePage() {
                 year="2023"
                 voltage="11KV/0.4KV"
                 color="green"
+                imageSrc="/uploads/cable try.jpg"
               />
               <ProjectCard
                 title="Residential Complex Wiring"
@@ -225,6 +227,7 @@ export default function MediumLowVoltagePage() {
                 year="2023"
                 voltage="0.4KV"
                 color="purple"
+                imageSrc="/uploads/lighting.png"
               />
             </div>
           </div>
@@ -425,7 +428,7 @@ function SpecCard({ title, specs, icon, color }) {
   );
 }
 
-function ProjectCard({ title, description, client, year, voltage, color }) {
+function ProjectCard({ title, description, client, year, voltage, color, imageSrc }) {
   const colorClasses = {
     blue: 'bg-blue-100 text-blue-800',
     green: 'bg-green-100 text-green-800',
@@ -436,7 +439,7 @@ function ProjectCard({ title, description, client, year, voltage, color }) {
     <Card className="group overflow-hidden rounded-xl bg-card border hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
       <div className="relative block overflow-hidden">
         <Image
-          src={`https://placehold.co/600x400/${color === 'blue' ? '1e40af' : color === 'green' ? '059669' : '7c3aed'}/ffffff?text=${encodeURIComponent(title)}`}
+          src={imageSrc || `https://placehold.co/600x400/${color === 'blue' ? '1e40af' : color === 'green' ? '059669' : '7c3aed'}/ffffff`}
           alt={title}
           width={600}
           height={400}

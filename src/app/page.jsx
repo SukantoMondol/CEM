@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ArrowRight, Check, Wrench, Zap, Building2, Cog, Power, Globe, ShieldCheck, Sun, Shield, Crown, Building, Factory, Phone, Mail, Award as AwardIcon, FileText, User, Users as UsersIcon, Calendar, CheckCircle, Lightbulb } from 'lucide-react';
 import Link from 'next/link';
 import { SiteLayout } from '@/components/site-layout';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -35,7 +36,7 @@ export default function Home() {
             Civil Electrical & Mechanical Engineering
           </h2>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto mb-12 leading-relaxed">
-            Leading power sector solutions with 5+ years of experience in substation installation, power plant construction, 
+            Leading power sector solutions with 7+ years of experience in substation installation, power plant construction, 
             and comprehensive EPC services for major power companies across Bangladesh.
           </p>
           
@@ -220,9 +221,19 @@ export default function Home() {
                 </Link>
               </Button>
             </div>
-            
-            <div className="relative rounded-3xl overflow-hidden">
-              <img src="/uploads/power sector excelence .jpeg" alt="Power Sector Excellence" className="w-full h-full object-cover" />
+            <div className="grid grid-cols-2 gap-4">
+              <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+                <Image src="/uploads/pgcb-400.jpeg" alt="PGCB 400kV Substation" fill className="object-cover" priority />
+              </div>
+              <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+                <Image src="/uploads/pgcb-230.jpg" alt="PGCB 230kV Substation" fill className="object-cover" />
+              </div>
+              <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+                <Image src="/uploads/substation steel.jpg" alt="Substation Steel Structures" fill className="object-cover" />
+              </div>
+              <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+                <Image src="/uploads/tower erection.jpeg" alt="Transmission Tower Erection" fill className="object-cover" />
+              </div>
             </div>
           </div>
         </div>
